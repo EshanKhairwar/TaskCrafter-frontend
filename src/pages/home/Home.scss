@@ -154,3 +154,14 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  .features .container {
+    justify-content: flex-start; // Align items to start for smaller screens
+  }
+
+  .explore .container .items .item {
+    width: calc(50% - 20px); // Adjust item width for smaller screens
+  }
+}

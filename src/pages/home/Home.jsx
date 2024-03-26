@@ -42,8 +42,8 @@ function Home() {
               Protected payments, every time
             </div>
             <p>
-              Always know what you'll pay upfront. Your payment isn't released
-              until you approve the work.
+             {` Always know what you'll pay upfront. Your payment isn't released
+              until you approve the work.`}
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
@@ -55,7 +55,7 @@ function Home() {
             </p>
           </div>
           <div className="item">
-            <video src="./img/video.mp4"  muted/>
+            <video src="./img/video.mp4" autoPlay muted/>
           </div>
         </div>
       </div>
@@ -151,7 +151,7 @@ function Home() {
         <div className="container">
           <div className="item">
             <h1>
-              fiverr <i>business</i>
+              taskcrafters <i>business</i>
             </h1>
             <h1>
               A business solution designed for <i>teams</i>

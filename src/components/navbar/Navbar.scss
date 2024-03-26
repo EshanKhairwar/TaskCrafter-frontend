@@ -115,3 +115,30 @@
     font-family: "Montserrat", sans-serif;
   }
 }
+
+// Media query for smaller screens
+@media (max-width: 768px) {
+  .container {
+    .logo {
+      font-size: 20px; // Further decrease font size for smaller screens
+    }
+
+    .links {
+      .user {
+        gap: 5px; // Further reduce gap between elements
+        img {
+          width: 24px; // Decrease image size for smaller screens
+          height: 24px;
+        }
+
+        .options {
+          width: 150px; // Decrease width of options menu
+        }
+      }
+
+      button {
+        padding: 8px 16px; // Adjust button padding for smaller screens
+      }
+    }
+  }
+}

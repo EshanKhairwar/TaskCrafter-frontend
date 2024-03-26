@@ -93,3 +93,13 @@
     }
   }
 }
+
+
+  // Media query for smaller screens
+  @media (max-width: 768px) {
+    .container {
+      .left {
+        gap: 10px; // Further reduce gap for smaller screens
+      }
+    }
+  }
